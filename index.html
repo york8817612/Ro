@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ROBrowser's App from https://www.robrowser.com</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover" />
+		<style type="text/css">
+			body, html { padding:0; margin:0; }
+		</style>
+		<script type="text/javascript">
+			var ROConfig = {
+				remoteClient:    "//grf.robrowser.com/",
+				servers: [{
+					display:     "Demo Server",
+					desc:        "roBrowser's demo server",
+					address:     "127.0.0.1",
+					port:        6900,
+					version:     25,
+					langtype:    12,
+					packetver:   20130618,
+					socketProxy: "wss://connect.robrowser.com/",
+					adminList:   [2000000]
+				}],
+				saveFiles:       true,
+				skipServerList:  true,
+				version:         1.272,
+				plugins: {
+					IntroMessage:  {},
+					LoadingDonate: {}
+				}
+			};
+		</script>
+		<script type="text/javascript" src="Online.js?1.272"></script>
+	</head>
+	<body>
+	</body>
+</html>
