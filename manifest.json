@@ -1,6 +1,6 @@
 {
-  "name": "Hello World",
-  "short_name": "Hello",
+  "name": "RoBrowser",
+  "short_name": "RoBrowser",
   "icons": [{
     "src": "images/hello-icon-128.png",
       "sizes": "128x128",
@@ -27,7 +27,7 @@
       "type": "image/png"
     }],
   "lang": "en-US",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
