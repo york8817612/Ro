@@ -29,6 +29,7 @@
   "lang": "en-US",
   "start_url": "./index.html",
   "display": "standalone",
+  "orientation": "landscape",
   "background_color": "white",
   "theme_color": "white"
 }
