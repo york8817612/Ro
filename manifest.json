@@ -28,7 +28,7 @@
     }],
   "lang": "en-US",
   "start_url": "./index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "white",
   "theme_color": "white"
