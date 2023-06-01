@@ -1,0 +1,75 @@
+#MobileUI *{
+	z-index: 1000;
+}
+
+#MobileUI .buttonBar, 
+#MobileUI #toggleUIButton{
+	position: absolute;
+}
+
+#MobileUI #toggleUIButton{
+	top: 3px;
+	left: 3px;
+	width: 25px;
+	height: 25px;
+}
+
+#MobileUI .buttons{
+	background: rgba(193,193,193,0.33);
+	border-radius: 6px;
+	border: 1px solid grey;
+}
+
+#MobileUI .mobileKeys{
+	visibility: inherit;
+}
+
+#MobileUI .horizontal{
+	margin: 0px 15px;
+}
+
+#MobileUI .vertical{
+	margin: 15px 0px;
+}
+
+#MobileUI .disabled { visibility:hidden; }
+
+#MobileUI #topBar{
+	left: 50%;
+	top: 3px;
+	transform: translate(-50%, 0);
+}
+
+#MobileUI #leftBar{
+	left: 5px;
+	bottom: 35%;
+	transform: translate(0, 50%);
+}
+
+#MobileUI #rightBar{
+	right: 5px;
+	bottom: 35%;
+	transform: translate(0, 50%);
+}
+
+#MobileUI #rightBar .buttons{
+	float: right;
+}
+
+#MobileUI .active{
+	background: rgba(193,255,193,0.33);
+}
+
+#MobileUI .pressed{
+	background: rgba(193,255,255,0.33);
+}
+
+#MobileUI .primary{
+	width: 45px;
+	height: 45px;
+}
+
+#MobileUI .secondary{
+	width: 30px;
+	height: 30px;
+}
