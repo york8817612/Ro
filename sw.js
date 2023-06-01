@@ -2,6 +2,7 @@ var cacheName = 'RoBrowser';
 var filesToCache = [
   './',
   './index.html',
+  './favicon.png',
   './Online.js',
   './ThreadEventHandler.js',
   './js/main.js'
